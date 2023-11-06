@@ -25,8 +25,7 @@ modules:
         dest: .cargo
       - type: git
         url: https://codeberg.org/Qwel/egui-picross/
-        tag: v0.1-b
-        commit: 4cde26a38e93361e151852197631da70973756aa
+        commit: 3b6de28cfef22013515481b99068d9020e48f1c9
     build-commands:
       - cargo --offline fetch --manifest-path Cargo.toml --verbose
       - cargo --offline build -r --verbose
